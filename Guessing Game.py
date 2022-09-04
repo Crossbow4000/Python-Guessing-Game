@@ -5,7 +5,6 @@ numberHasBeenGuessed = False
 
 randomNumber = random.randint(0, 1000)
 
-print(randomNumber)
 input("Welcome to the Number Guessing Game, press ENTER to start the game   ")
 
 while wantsToContinue == True:
