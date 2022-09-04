@@ -56,7 +56,7 @@ while wantsToContinue == True:
         elif guessedNumberInt == randomNumber:
             quit = input("Wow you guessed the number! Type QUIT to quit or press ENTER to play again   ")
             
-            if quit == "QUIT":
+            if quit.lower == "quit":
                 wantsToContinue = False
                 break
             else:
